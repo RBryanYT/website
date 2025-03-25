@@ -1,0 +1,13 @@
+include:
+- .well-known
+
+collections:
+  main_site:
+    output: true
+    permalink: /:path/
+  cdn:
+    output: true
+    permalink: /:path/
+  redirect:
+    output: true
+    permalink: /:path/
